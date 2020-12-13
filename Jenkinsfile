@@ -5,12 +5,10 @@ pipeline {
         stage('Deploy') {
             steps {
                     sh 'echo hello'
-                }
                     sh 'echo nope'
                 }
             }
         }
-    }
 }
 
 
